@@ -8,7 +8,7 @@ function renderUser(url){
         
         lavshKeldi.map(obyektlar => {
             box.innerHTML += `
-            <li class="w-[300px] bg-green-500 rounded p-5 flex flex-col items-center">
+            <li class="w-[300px] bg-red-500 rounded p-5 flex flex-col items-center">
             <h2>${obyektlar.name}</h2>
         <p>Email: ${obyektlar.address.street}</p>
             </li>
